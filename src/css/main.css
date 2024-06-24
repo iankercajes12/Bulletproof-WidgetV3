@@ -379,3 +379,15 @@ body {
 .yotpo-main-widget-layout.yotpo-align-text * {
     font-family: 'Apercu',sans-serif !important;
 }
+.modal-backdrop.yotpo-review-form-modal .yotpo-modal .yotpo-modal-body form.yotpo-review-form footer.form-footer .yotpo-review-form-footer-container button.yotpo-new-review-submit {
+    background: #fff;
+    color: #000;
+    border: 2px solid #ff5200;
+    border-radius: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.modal-backdrop.yotpo-review-form-modal .yotpo-modal .modal-close-btn-wrapper svg.yotpo-close-icon.btn-close {
+    z-index: 100000000000000000000 !important;
+}
