@@ -563,3 +563,22 @@ body {
     text-align: center;
     margin: 12px 0;
 }
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget div#yotpo-reviews-container .yotpo-reviews-list .yotpo-review-votes-wrapper.top-margin .yotpo-review-votes-icons-wrapper .yotpo-review-votes-icons-container .yotpo-review-votes-icons svg.yotpo-review-votes-icon-up path {
+    display: none;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget div#yotpo-reviews-container .yotpo-reviews-list .yotpo-review-votes-wrapper.top-margin .yotpo-review-votes-icons-wrapper .yotpo-review-votes-icons-container .yotpo-review-votes-icons svg.yotpo-review-votes-icon-down path {
+    display: none;
+}
+
+.yotpo-review-votes-wrapper.top-margin .yotpo-review-votes-icons-wrapper [class*="review-votes-icons-container"] {
+    position: relative;
+}
+
+.yotpo-review-votes-wrapper.top-margin .yotpo-review-votes-icons-wrapper [class*="review-votes-icons-container"] svg {
+    display: block !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
