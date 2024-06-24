@@ -543,3 +543,12 @@ body {
 .yotpo-display-s .yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget div#yotpo-reviews-container .yotpo-reviews-list .yotpo-review-votes-wrapper.top-margin .yotpo-review-votes-text {
     margin: 0 !important;
 }
+.yotpo-display-s .modal-backdrop.yotpo-review-form-modal .yotpo-modal {
+    width: unset;
+}
+.modal-backdrop.yotpo-review-form-modal .yotpo-modal .yotpo-modal-body form.yotpo-review-form footer.form-footer .yotpo-checkbox-container.yotpo-terms-and-conditions-container {
+    display: inline-block;
+    width: 100%;
+    min-width: 290px;
+    padding: 10px;
+}
