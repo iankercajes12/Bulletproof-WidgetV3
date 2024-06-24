@@ -626,3 +626,11 @@ div#yotpo-reviews-container .yotpo-no-matching-reviews-container button#yotpo-ma
 .yotpo-filters-results-btn .yotpo-filters-results-btn-no-results .yotpo-filters-results-btn-clear-wrapper .yotpo-filters-results-btn-clear {
     border-radius: 0 !important;
 }
+.yotpo-widget-instance .yotpo-reviews-star-ratings-widget.yotpo-star-ratings-widget-override-css.yotpo-device-desktop.yotpo-display-l.yotpo-star-ratings-clickable .yotpo-bottom-line-scroll-panel * {
+    font-family: 'Apercu',sans-serif !important;
+}
+.yotpo-widget-instance .yotpo-bottom-line-scroll-panel .yotpo-sr-bottom-line-summary .yotpo-sr-bottom-line-right-panel .yotpo-sr-bottom-line-text.yotpo-sr-bottom-line-text--right-panel {
+    font-weight: normal !important;
+    font-family: 'Apercu',sans-serif !important;
+    font-size: 11.5px !important;
+}
