@@ -338,3 +338,37 @@ body {
     text-decoration: underline;
     background-color: unset;
 }
+[class*="yotpo-display-"][class*="yotpo-device-"].yotpo-device-mobile .modal-backdrop.yotpo-media-modal {
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+[class*="yotpo-display-"][class*="yotpo-device-"].yotpo-device-mobile .modal-backdrop.yotpo-media-modal #yotpo-modal {
+    overflow-y: unset;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style] .yotpo-review .yotpo-review-center-panel .yotpo-review-content .yotpo-read-more-text {
+    display: inline;
+    margin-right: 5px;
+}
+
+[class*="yotpo-display-"][class*="yotpo-device-"][style] .yotpo-review .yotpo-review-center-panel .yotpo-read-more {
+    margin: 0;
+}
+[class*="yotpo-display-"][class*="yotpo-device-"][style] .yotpo-reviews-list > .yotpo-review-votes-wrapper .yotpo-review-votes-icons-wrapper,
+[class*="yotpo-display-"][class*="yotpo-device-"][style] .yotpo-reviews-list > .yotpo-review-votes-wrapper .yotpo-review-votes-icons-wrapper .yotpo-review-votes-icons-container {
+    display: flex;
+    gap: 5px;
+}
+
+[class*="yotpo-display-"][class*="yotpo-device-"][style] .yotpo-reviews-list > .yotpo-review-votes-wrapper .yotpo-review-votes-icons-wrapper .yotpo-review-votes-icons-container .yotpo-review-votes-icons {
+    margin: 0;
+}
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-display: swap;
+  src: url(https://shop.bulletproof.com/cdn/shop/t/3/assets/apercu-regular-pro.woff2?v=148749960064141536591637052897) format('woff2');
+}
+.yotpo-main-widget-layout.yotpo-align-text * {
+    font-family: 'Apercu',sans-serif !important;
+}
