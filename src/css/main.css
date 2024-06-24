@@ -369,6 +369,12 @@ body {
   font-display: swap;
   src: url(https://shop.bulletproof.com/cdn/shop/t/3/assets/apercu-regular-pro.woff2?v=148749960064141536591637052897) format('woff2');
 }
+@font-face {
+  font-family: 'Apercu';
+  font-style: normal;
+  font-display: swap;
+  src: url(https://shop.bulletproof.com/cdn/shop/t/3/assets/apercu-bold-pro.woff2?v=22821370893558607391637052894) format('woff2');
+}
 .yotpo-main-widget-layout.yotpo-align-text * {
     font-family: 'Apercu',sans-serif !important;
 }
