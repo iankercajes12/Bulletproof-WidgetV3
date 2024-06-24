@@ -372,6 +372,7 @@ body {
 @font-face {
   font-family: 'Apercu';
   font-style: normal;
+  font-weight:bold;
   font-display: swap;
   src: url(https://shop.bulletproof.com/cdn/shop/t/3/assets/apercu-bold-pro.woff2?v=22821370893558607391637052894) format('woff2');
 }
