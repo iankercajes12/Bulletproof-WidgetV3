@@ -376,8 +376,21 @@ body {
   font-display: swap;
   src: url(https://shop.bulletproof.com/cdn/shop/t/3/assets/apercu-bold-pro.woff2?v=22821370893558607391637052894) format('woff2');
 }
+@font-face {
+  font-family: 'Druk';
+  font-style: normal;
+  font-display: swap;
+  src: url(https://shop.bulletproof.com/cdn/shop/t/3/assets/druk-medium.woff2?v=10318857272284720981637052898) format('woff2');
+}
 .yotpo-main-widget-layout.yotpo-align-text * {
     font-family: 'Apercu',sans-serif !important;
+}
+.yotpo-main-widget-layout.yotpo-align-text .yotpo-base-layout .yotpo-main-layout.yotpo-main-reviews-widget .yotpo-head h2.yotpo-headline {
+    margin: 0;
+    text-align: left;
+    font-size: 50px;
+    flex-basis: unset;
+    font-family: 'Druk',sans-serif !important;
 }
 .modal-backdrop.yotpo-review-form-modal .yotpo-modal .yotpo-modal-body form.yotpo-review-form footer.form-footer .yotpo-review-form-footer-container button.yotpo-new-review-submit {
     background: #fff;
